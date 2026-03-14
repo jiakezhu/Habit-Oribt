@@ -1,0 +1,8 @@
+{
+  "name": "Jiake's HabitOrbit",
+  "description": "A daily planner that turns habits into a virtual planet. Features AI-generated achievement art, daily reflection journals with mood tracking, and a built-in Pomodoro timer.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
