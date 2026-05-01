@@ -4,7 +4,7 @@ import { Task, Achievement } from "../types";
 
 // Helper to get API key
 const getAiClient = () => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY;;
   if (!apiKey) {
     console.error("API Key missing");
     throw new Error("API Key is missing.");
